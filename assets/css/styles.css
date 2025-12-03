@@ -276,7 +276,7 @@ body::before {
 .text h4,
 .text h5,
 .text h6 {
-  text-transform: uppercase;
+  text-transform: none;
   text-wrap: balance;
 }
 .text figure,
