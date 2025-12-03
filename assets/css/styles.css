@@ -851,7 +851,7 @@ figcaption {
 .lab-project-image {
 	display: block;
 	width: 100%;
-	background: var(--c-bg-img);
+	background: var(--c-bg);
 	border-radius: 20px;
 }
 @media (min-width: 1000px) {
@@ -879,7 +879,7 @@ figcaption {
 	bottom: 1rem;
 	left: 1rem;
 	z-index: 100;
-	font-size: 2rem;
+	font-size: 3rem;
 }
 #backtop svg {
 	fill: var(--c-text);
