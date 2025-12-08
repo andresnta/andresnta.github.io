@@ -42,14 +42,14 @@
   scroll-behavior: smooth;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 	:root {
 		--c-bg: hsl(0, 0%, 0%);
 		--c-bg-alt: hsl(0, 0%, 18%);
 		--c-text: hsl(0, 0%, 5%);
 		--c-text-alt: hsl(0, 0%, 60%);
 	}
-} */
+}
 @media (min-width: 900px) {
   :root {
     --f-size: 16px;
@@ -64,6 +64,7 @@
     --l-width: 102ch;
   }
 }
+
 body,
 html {
   scroll-behavior: smooth;
@@ -76,11 +77,13 @@ body {
   padding: 0 2ch 0 4ch;
   overflow-x: hidden;
 }
+/*
 @media (min-width: 1150px) {
   body {
     padding: 0 3ch;
   }
 }
+*/
 body::after {
   content: "";
   position: fixed;
